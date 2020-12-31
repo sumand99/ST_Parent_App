@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Swipe Touch</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_logindevice">Login Device</string>
+    <string name="menu_otherAcoount">Other Account</string>
+    <string name="menu_Addaccount">Add Account</string>
+    <string name="menu_rateus">Rate us</string>
+    <string name="menu_chnagepass">Change Password</string>
+    <string name="menu_contactus">Contact Us</string>
+    <string name="menu_fingerprint">Finger Print</string>
+    <string name="butm">Custom</string>
+    <string name="undo">undo</string>
+
+    <string name="loraptext">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_internet">No Internet</string>
+
+    <string-array name="names">
+        <item>JHON DOE</item>
+        <item>MARK SOE</item>
+        <item>MARK DOE</item>
+
+
+    </string-array>
+    <string-array name="year">
+        <item>2020</item>
+        <item>2019</item>
+        <item>2018</item>
+
+
+    </string-array>
+
+    <string-array name="month">
+        <item>jan</item>
+        <item>Feb</item>
+        <item>march</item>
+
+
+    </string-array>
+
+</resources>

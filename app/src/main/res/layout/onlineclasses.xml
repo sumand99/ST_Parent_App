@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_10sdp"
+    android:padding="@dimen/_5sdp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cardbg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center"
+            android:background="@drawable/cardbgsms"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_leaverea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_3sdp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="@dimen/_3sdp"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="@dimen/_100sdp"
+                        android:layout_height="wrap_content"
+
+                        android:text="Topic                -"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_14sdp"></TextView>
+
+                    <TextView
+                        android:id="@+id/iv_topicname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:text="Physics"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_14sdp"></TextView>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_leaverea"
+                android:layout_marginLeft="@dimen/_3sdp"
+                android:orientation="horizontal"
+                android:padding="@dimen/_3sdp">
+
+                <TextView
+                    android:id="@+id/tv_homwworkdetail"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="wrap_content"
+                    android:text="Subject Name -"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_subjectname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:text="Physics"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="start|center"
+                android:orientation="horizontal"
+                android:padding="@dimen/_3sdp">
+
+                <TextView
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:text="Description     -"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp"></TextView>
+
+                <TextView
+                    android:id="@+id/tv_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:gravity="end"
+                    android:text="Mr. Ashish Kumar"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_3sdp"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:gravity="start|center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:text="Teacher           -"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp"></TextView>
+
+                <TextView
+                    android:id="@+id/tv_teachername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:gravity="end"
+                    android:text="Mr. Ashish Kumar"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="@dimen/_3sdp">
+
+                <TextView
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:text="Start At            -"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp"></TextView>
+
+                <TextView
+                    android:id="@+id/iv_classstarttime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:text="8:55 am"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end|center"
+                android:orientation="horizontal"
+                android:padding="@dimen/_3sdp">
+
+                <TextView
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:text="End                   -"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp"></TextView>
+
+                <TextView
+                    android:id="@+id/iv_classendtime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:text="8:55 am"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/buttonlay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/_5sdp">
+
+                <Button
+                    android:id="@+id/buttonjoin"
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:background="@drawable/btnbggg"
+                    android:text="Join Now"
+                    android:textColor="@color/white"
+                    android:visibility="visible"></Button>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_tvlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/_5sdp"
+                android:visibility="gone">
+
+
+                <TextView
+                    android:id="@+id/tv_blocked_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="You Are Block By Admin\n please contact with Admin"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:visibility="visible"></TextView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

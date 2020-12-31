@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_logindevice"
+            android:icon="@drawable/settings"
+            android:title="@string/menu_logindevice" />
+        <item
+            android:id="@+id/nav_otheraccount"
+            android:icon="@drawable/device"
+            android:title="@string/menu_otherAcoount" />
+
+        <item
+            android:id="@+id/nav_rating"
+            android:icon="@drawable/ratingbb"
+            android:title="@string/menu_rateus" />
+        <item
+            android:id="@+id/nav_changepass"
+            android:icon="@drawable/loginpng"
+            android:title="@string/menu_chnagepass" />
+        <item
+            android:id="@+id/nav_contactus"
+            android:icon="@drawable/contact"
+            android:title="@string/menu_contactus" />
+
+        <item
+            android:id="@+id/nav_finger"
+            android:icon="@drawable/fingerprint"
+            android:title="@string/menu_fingerprint" />
+
+
+    </group>
+</menu>

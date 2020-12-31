@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="text">#6200EE</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="logout">#05cd55</color>
+    <color name="logoutgh">#a8f6ff</color>
+    <color name="red">#fff200</color>
+    <color name="blue">#9a0c13</color>
+    <color name="yellow">#723ad2</color>
+    <color name="redblue">#ff5a5a</color>
+    <color name="bahgwa">#1da5ff</color>
+
+
+</resources>

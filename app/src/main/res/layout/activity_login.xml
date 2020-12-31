@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/flay"
+        android:layout_width="match_parent"
+
+        android:layout_height="150dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/loginbg"></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_sec"
+      android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_below="@+id/flay">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/loginimg"></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/laythr"
+        android:layout_below="@+id/ll_sec"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/et_user_id"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:paddingLeft="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_14sdp"
+            android:textSize="@dimen/_14sdp"
+            android:hint="User Id"
+            android:inputType="text"
+            android:textColorHint="@color/text"
+            android:background="@drawable/grey_round_corners_back">
+
+        </EditText>
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:paddingLeft="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_14sdp"
+            android:textSize="@dimen/_14sdp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorHint="@color/text"
+            android:background="@drawable/grey_round_corners_back">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnlaypot"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_below="@+id/laythr"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:layout_height="wrap_content">
+
+        <Button
+           android:id="@+id/loginbtn"
+            android:layout_width="match_parent"
+            android:background="@drawable/loginbtnbg"
+            android:layout_height="@dimen/_50sdp"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_10sdp"
+
+        android:layout_below="@+id/btnlaypot"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_forgotpass"
+            android:textColor="@color/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password? "></TextView>
+    </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

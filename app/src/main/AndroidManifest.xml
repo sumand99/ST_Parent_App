@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vedanshtechnologies.swipetouch">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Activities.NoticeDetailActivity"></activity>
+        <activity android:name=".Activities.LeaveStatusActivity" />
+        <activity android:name=".Activities.LeaveApplicationActivity" />
+        <activity android:name=".Activities.CustomYearlyPercents" />
+        <activity android:name=".Activities.YearlyPercentageActivity" />
+        <activity android:name=".Activities.Simple_Calender_Activity" />
+        <activity android:name=".Activities.MainCalenderActivity" />
+        <activity android:name=".Activities.TestCalender" />
+        <activity android:name=".Activities.customcalender" />
+        <activity android:name=".Activities.HolidayActivity" />
+        <activity android:name=".Activities.SettingActivity" />
+        <activity android:name=".Activities.LibraryActivity" />
+        <activity android:name=".Activities.ActivitiesActivity" />
+        <activity android:name=".Activities.ProjectsActivity" />
+        <activity android:name=".Activities.HomeWorkActivity" />
+        <activity android:name=".Activities.AcadmicfeedbackActivity" />
+        <activity android:name=".Activities.BirthdayActivity" />
+        <activity android:name=".Activities.NewsEventActivity" />
+        <activity android:name=".Activities.WriteToSchoolActivity" />
+        <activity android:name=".Activities.SmsActivity" />
+        <activity android:name=".Activities.MyTeacherActivity" />
+        <activity android:name=".Activities.PersonalDetailActivity" />
+        <activity android:name=".Activities.ExamReportActivity" />
+        <activity android:name=".Activities.OnlineTestActivity" />
+        <activity android:name=".Activities.OnlineClassesActivity" />
+        <activity android:name=".Activities.TransportActivity" />
+        <activity android:name=".Activities.LibraryActvity" />
+        <activity android:name=".Activities.FeesActivity" />
+        <activity android:name=".Activities.SyllabusActivty" />
+        <activity android:name=".Activities.TimeTable" />
+        <activity android:name=".Activities.CelenderActivity" />
+        <activity android:name=".Activities.ENoticeActivity" />
+        <activity android:name=".Activities.AssignmentActivity" />
+        <activity android:name=".Activities.AttendanceActivity" />
+        <activity android:name=".Activities.HomeActivity" />
+        <activity android:name=".Activities.LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
