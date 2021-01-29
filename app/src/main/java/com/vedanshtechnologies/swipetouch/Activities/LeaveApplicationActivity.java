@@ -1,4 +1,4 @@
-package com.vedanshtechnologies.swipetouch.Activities;
+package com.swipetouch.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.DialogFragment;
@@ -33,12 +33,12 @@ import com.android.volley.RetryPolicy;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.vedanshtechnologies.swipetouch.Adapter.YearlyPercentageAdapter;
-import com.vedanshtechnologies.swipetouch.ModelClass.AttendancePercentageModel;
+import com.swipetouch.Adapter.YearlyPercentageAdapter;
+import com.swipetouch.ModelClass.AttendancePercentageModel;
 import com.vedanshtechnologies.swipetouch.R;
-import com.vedanshtechnologies.swipetouch.UtilityTools.Const;
-import com.vedanshtechnologies.swipetouch.UtilityTools.KeyboardUtils;
-import com.vedanshtechnologies.swipetouch.UtilityTools.NetworkUtil;
+import com.swipetouch.UtilityTools.Const;
+import com.swipetouch.UtilityTools.KeyboardUtils;
+import com.swipetouch.UtilityTools.NetworkUtil;
 
 import org.json.JSONArray;
 import org.json.JSONException;

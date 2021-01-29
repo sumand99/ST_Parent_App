@@ -1,4 +1,4 @@
-package com.vedanshtechnologies.swipetouch.Adapter;
+package com.swipetouch.Adapter;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -14,7 +14,7 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.vedanshtechnologies.swipetouch.ModelClass.SyllabusModelclass;
+import com.swipetouch.ModelClass.SyllabusModelclass;
 import com.vedanshtechnologies.swipetouch.R;
 
 import java.util.ArrayList;

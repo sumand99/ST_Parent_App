@@ -1,4 +1,4 @@
-package com.vedanshtechnologies.swipetouch.Activities;
+package com.swipetouch.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;

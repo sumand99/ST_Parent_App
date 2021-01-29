@@ -1,4 +1,4 @@
-package com.vedanshtechnologies.swipetouch.Adapter;
+package com.swipetouch.Adapter;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -15,7 +15,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.vedanshtechnologies.swipetouch.ModelClass.AttendancePercentageModel;
+import com.swipetouch.ModelClass.AttendancePercentageModel;
 import com.vedanshtechnologies.swipetouch.R;
 
 import java.util.ArrayList;

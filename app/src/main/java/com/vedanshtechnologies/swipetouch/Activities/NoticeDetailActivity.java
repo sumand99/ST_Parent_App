@@ -1,4 +1,4 @@
-package com.vedanshtechnologies.swipetouch.Activities;
+package com.swipetouch.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -19,11 +19,11 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.squareup.picasso.Picasso;
-import com.vedanshtechnologies.swipetouch.Adapter.NoticesAdapter;
-import com.vedanshtechnologies.swipetouch.ModelClass.NoticeModelClass;
+import com.swipetouch.Adapter.NoticesAdapter;
+import com.swipetouch.ModelClass.NoticeModelClass;
 import com.vedanshtechnologies.swipetouch.R;
-import com.vedanshtechnologies.swipetouch.UtilityTools.Const;
-import com.vedanshtechnologies.swipetouch.UtilityTools.NetworkUtil;
+import com.swipetouch.UtilityTools.Const;
+import com.swipetouch.UtilityTools.NetworkUtil;
 
 import org.json.JSONArray;
 import org.json.JSONException;

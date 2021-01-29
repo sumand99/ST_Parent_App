@@ -1,4 +1,4 @@
-package com.vedanshtechnologies.swipetouch.Adapter;
+package com.swipetouch.Adapter;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -11,11 +11,11 @@ import android.widget.RelativeLayout;
 import android.widget.Switch;
 import android.widget.TextView;
 
-import com.vedanshtechnologies.swipetouch.Activities.MainCalenderActivity;
-import com.vedanshtechnologies.swipetouch.ModelClass.Attendance;
-import com.vedanshtechnologies.swipetouch.ModelClass.Month;
-import com.vedanshtechnologies.swipetouch.ModelClass.MonthAttendanceModel;
-import com.vedanshtechnologies.swipetouch.ModelClass.MonthlyAttendance;
+import com.swipetouch.Activities.MainCalenderActivity;
+import com.swipetouch.ModelClass.Attendance;
+import com.swipetouch.ModelClass.Month;
+import com.swipetouch.ModelClass.MonthAttendanceModel;
+import com.swipetouch.ModelClass.MonthlyAttendance;
 import com.vedanshtechnologies.swipetouch.R;
 
 import java.util.ArrayList;

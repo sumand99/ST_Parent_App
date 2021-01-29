@@ -1,4 +1,4 @@
-package com.vedanshtechnologies.swipetouch.database;
+package com.swipetouch.database;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -6,7 +6,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
 
-import com.vedanshtechnologies.swipetouch.UtilityTools.Utils;
+import com.swipetouch.UtilityTools.Utils;
 
 import java.util.ArrayList;
 

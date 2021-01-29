@@ -1,4 +1,4 @@
-package com.vedanshtechnologies.swipetouch.Activities;
+package com.swipetouch.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
@@ -9,8 +9,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.vedanshtechnologies.swipetouch.Adapter.HomeWorkAdapter;
-import com.vedanshtechnologies.swipetouch.ModelClass.HomeWorkModel;
+import com.swipetouch.Adapter.HomeWorkAdapter;
+import com.swipetouch.ModelClass.HomeWorkModel;
 import com.vedanshtechnologies.swipetouch.R;
 
 import java.util.ArrayList;

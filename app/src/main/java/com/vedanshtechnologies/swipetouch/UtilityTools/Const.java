@@ -1,4 +1,4 @@
-package com.vedanshtechnologies.swipetouch.UtilityTools;
+package com.swipetouch.UtilityTools;
 
 /**
  * Created by HPLAPTOP on 20/12/2019.

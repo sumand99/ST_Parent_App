@@ -1,4 +1,4 @@
-package com.vedanshtechnologies.swipetouch.Activities;
+package com.swipetouch.Activities;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
@@ -29,16 +29,16 @@ import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.vedanshtechnologies.swipetouch.Adapter.CalenderAdapterView;
-import com.vedanshtechnologies.swipetouch.Adapter.Calender_Adapters;
-import com.vedanshtechnologies.swipetouch.Adapter.CustomCalenderAdapter;
-import com.vedanshtechnologies.swipetouch.Adapter.new_Custom_Calender;
-import com.vedanshtechnologies.swipetouch.ModelClass.Month;
-import com.vedanshtechnologies.swipetouch.ModelClass.MonthAttendanceModel;
-import com.vedanshtechnologies.swipetouch.ModelClass.MonthlyAttendance;
-import com.vedanshtechnologies.swipetouch.ModelClass.Attendance;
+import com.swipetouch.Adapter.CalenderAdapterView;
+import com.swipetouch.Adapter.Calender_Adapters;
+import com.swipetouch.Adapter.CustomCalenderAdapter;
+import com.swipetouch.Adapter.new_Custom_Calender;
+import com.swipetouch.ModelClass.Month;
+import com.swipetouch.ModelClass.MonthAttendanceModel;
+import com.swipetouch.ModelClass.MonthlyAttendance;
+import com.swipetouch.ModelClass.Attendance;
 import com.vedanshtechnologies.swipetouch.R;
-import com.vedanshtechnologies.swipetouch.UtilityTools.NetworkUtil;
+import com.swipetouch.UtilityTools.NetworkUtil;
 
 import org.json.JSONArray;
 import org.json.JSONException;

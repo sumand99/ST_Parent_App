@@ -1,4 +1,4 @@
-package com.vedanshtechnologies.swipetouch.Activities;
+package com.swipetouch.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -8,9 +8,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.vedanshtechnologies.swipetouch.Adapter.SmsHistoryAdapter;
-import com.vedanshtechnologies.swipetouch.Adapter.SyllabusAdapter;
-import com.vedanshtechnologies.swipetouch.ModelClass.SmshistoryModelClass;
+import com.swipetouch.Adapter.SmsHistoryAdapter;
+import com.swipetouch.Adapter.SyllabusAdapter;
+import com.swipetouch.ModelClass.SmshistoryModelClass;
 import com.vedanshtechnologies.swipetouch.R;
 
 import java.util.ArrayList;

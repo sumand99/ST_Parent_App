@@ -1,4 +1,4 @@
-package com.vedanshtechnologies.swipetouch.Adapter;
+package com.swipetouch.Adapter;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -10,7 +10,7 @@ import android.widget.BaseAdapter;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.vedanshtechnologies.swipetouch.ModelClass.Month;
+import com.swipetouch.ModelClass.Month;
 import com.vedanshtechnologies.swipetouch.R;
 
 import java.text.ParseException;

@@ -1,4 +1,4 @@
-package com.vedanshtechnologies.swipetouch.ModelClass;
+package com.swipetouch.ModelClass;
 
 import java.util.ArrayList;
 

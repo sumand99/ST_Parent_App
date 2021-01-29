@@ -1,4 +1,4 @@
-package com.vedanshtechnologies.swipetouch.Adapter;
+package com.swipetouch.Adapter;
 
 import android.content.Context;
 import android.graphics.Color;

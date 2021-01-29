@@ -1,4 +1,4 @@
-package com.vedanshtechnologies.swipetouch.Activities.UI;
+package com.swipetouch.Activities.UI;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,27 +11,27 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.vedanshtechnologies.swipetouch.Activities.AcadmicfeedbackActivity;
-import com.vedanshtechnologies.swipetouch.Activities.AssignmentActivity;
-import com.vedanshtechnologies.swipetouch.Activities.AttendanceActivity;
-import com.vedanshtechnologies.swipetouch.Activities.BirthdayActivity;
-import com.vedanshtechnologies.swipetouch.Activities.CelenderActivity;
-import com.vedanshtechnologies.swipetouch.Activities.ENoticeActivity;
-import com.vedanshtechnologies.swipetouch.Activities.ExamReportActivity;
-import com.vedanshtechnologies.swipetouch.Activities.FeesActivity;
-import com.vedanshtechnologies.swipetouch.Activities.LibraryActivity;
-import com.vedanshtechnologies.swipetouch.Activities.MainCalenderActivity;
-import com.vedanshtechnologies.swipetouch.Activities.MyTeacherActivity;
-import com.vedanshtechnologies.swipetouch.Activities.NewsEventActivity;
-import com.vedanshtechnologies.swipetouch.Activities.OnlineClassesActivity;
-import com.vedanshtechnologies.swipetouch.Activities.OnlineTestActivity;
-import com.vedanshtechnologies.swipetouch.Activities.PersonalDetailActivity;
-import com.vedanshtechnologies.swipetouch.Activities.SettingActivity;
-import com.vedanshtechnologies.swipetouch.Activities.SmsActivity;
-import com.vedanshtechnologies.swipetouch.Activities.SyllabusActivty;
-import com.vedanshtechnologies.swipetouch.Activities.TimeTable;
-import com.vedanshtechnologies.swipetouch.Activities.TransportActivity;
-import com.vedanshtechnologies.swipetouch.Activities.WriteToSchoolActivity;
+import com.swipetouch.Activities.AcadmicfeedbackActivity;
+import com.swipetouch.Activities.AssignmentActivity;
+import com.swipetouch.Activities.AttendanceActivity;
+import com.swipetouch.Activities.BirthdayActivity;
+import com.swipetouch.Activities.CelenderActivity;
+import com.swipetouch.Activities.ENoticeActivity;
+import com.swipetouch.Activities.ExamReportActivity;
+import com.swipetouch.Activities.FeesActivity;
+import com.swipetouch.Activities.LibraryActivity;
+import com.swipetouch.Activities.MainCalenderActivity;
+import com.swipetouch.Activities.MyTeacherActivity;
+import com.swipetouch.Activities.NewsEventActivity;
+import com.swipetouch.Activities.OnlineClassesActivity;
+import com.swipetouch.Activities.OnlineTestActivity;
+import com.swipetouch.Activities.PersonalDetailActivity;
+import com.swipetouch.Activities.SettingActivity;
+import com.swipetouch.Activities.SmsActivity;
+import com.swipetouch.Activities.SyllabusActivty;
+import com.swipetouch.Activities.TimeTable;
+import com.swipetouch.Activities.TransportActivity;
+import com.swipetouch.Activities.WriteToSchoolActivity;
 import com.vedanshtechnologies.swipetouch.R;
 
 

@@ -1,4 +1,4 @@
-package com.vedanshtechnologies.swipetouch.Activities;
+package com.swipetouch.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -20,15 +20,15 @@ import com.android.volley.RetryPolicy;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.vedanshtechnologies.swipetouch.Adapter.CalendarAdapter;
-import com.vedanshtechnologies.swipetouch.Adapter.CalenderAdapterView;
-import com.vedanshtechnologies.swipetouch.Adapter.Calender_Adapters;
-import com.vedanshtechnologies.swipetouch.Adapter.CustomCalenderAdapter;
-import com.vedanshtechnologies.swipetouch.ModelClass.Month;
-import com.vedanshtechnologies.swipetouch.ModelClass.MonthAttendanceModel;
-import com.vedanshtechnologies.swipetouch.ModelClass.MonthlyAttendance;
-import com.vedanshtechnologies.swipetouch.ModelClass.Attendance;
-import com.vedanshtechnologies.swipetouch.ModelClass.StudentAttendance;
+import com.swipetouch.Adapter.CalendarAdapter;
+import com.swipetouch.Adapter.CalenderAdapterView;
+import com.swipetouch.Adapter.Calender_Adapters;
+import com.swipetouch.Adapter.CustomCalenderAdapter;
+import com.swipetouch.ModelClass.Month;
+import com.swipetouch.ModelClass.MonthAttendanceModel;
+import com.swipetouch.ModelClass.MonthlyAttendance;
+import com.swipetouch.ModelClass.Attendance;
+import com.swipetouch.ModelClass.StudentAttendance;
 import com.vedanshtechnologies.swipetouch.R;
 
 import org.json.JSONArray;

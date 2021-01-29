@@ -1,4 +1,4 @@
-package com.vedanshtechnologies.swipetouch.UtilityTools.multipart;
+package com.swipetouch.UtilityTools.multipart;
 
 import android.content.Context;
 import android.graphics.Bitmap;

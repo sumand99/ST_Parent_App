@@ -1,4 +1,4 @@
-package com.vedanshtechnologies.swipetouch.Adapter;
+package com.swipetouch.Adapter;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -10,8 +10,8 @@ import android.widget.BaseAdapter;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.vedanshtechnologies.swipetouch.Activities.customcalender;
-import com.vedanshtechnologies.swipetouch.ModelClass.Attendance;
+import com.swipetouch.Activities.customcalender;
+import com.swipetouch.ModelClass.Attendance;
 import com.vedanshtechnologies.swipetouch.R;
 
 import java.text.DateFormat;

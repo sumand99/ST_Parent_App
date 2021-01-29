@@ -1,4 +1,4 @@
-package com.vedanshtechnologies.swipetouch.ModelClass;
+package com.swipetouch.ModelClass;
 
 public class OnlineClassesModel {
     public String class_Start_date;

@@ -1,4 +1,4 @@
-package com.vedanshtechnologies.swipetouch.UtilityTools;
+package com.swipetouch.UtilityTools;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
@@ -11,7 +11,7 @@ import androidx.multidex.MultiDexApplication;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
-import com.vedanshtechnologies.swipetouch.database.UserDataHelper;
+import com.swipetouch.database.UserDataHelper;
 
 
 /**

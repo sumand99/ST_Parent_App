@@ -1,4 +1,4 @@
-package com.vedanshtechnologies.swipetouch.UtilityTools;
+package com.swipetouch.UtilityTools;
 
 /**
  * Created by SIB-QC4 on 1/17/2017.

@@ -1,4 +1,4 @@
-package com.vedanshtechnologies.swipetouch.Activities;
+package com.swipetouch.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -28,12 +28,12 @@ import com.hadiidbouk.charts.BarData;
 
 
 import com.hadiidbouk.charts.ChartProgressBar;
-import com.vedanshtechnologies.swipetouch.Adapter.YearlyPercentageAdapter;
-import com.vedanshtechnologies.swipetouch.Adapter.new_Custom_Calender;
-import com.vedanshtechnologies.swipetouch.ModelClass.AttendancePercentageModel;
-import com.vedanshtechnologies.swipetouch.ModelClass.Month;
+import com.swipetouch.Adapter.YearlyPercentageAdapter;
+import com.swipetouch.Adapter.new_Custom_Calender;
+import com.swipetouch.ModelClass.AttendancePercentageModel;
+import com.swipetouch.ModelClass.Month;
 import com.vedanshtechnologies.swipetouch.R;
-import com.vedanshtechnologies.swipetouch.UtilityTools.NetworkUtil;
+import com.swipetouch.UtilityTools.NetworkUtil;
 
 import org.json.JSONArray;
 import org.json.JSONException;

@@ -1,4 +1,4 @@
-package com.vedanshtechnologies.swipetouch.database;
+package com.swipetouch.database;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

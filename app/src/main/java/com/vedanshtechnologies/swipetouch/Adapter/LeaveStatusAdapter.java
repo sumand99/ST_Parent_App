@@ -1,4 +1,4 @@
-package com.vedanshtechnologies.swipetouch.Adapter;
+package com.swipetouch.Adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,8 +9,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.vedanshtechnologies.swipetouch.Activities.LeaveStatusActivity;
-import com.vedanshtechnologies.swipetouch.ModelClass.LeaveStatusModel;
+import com.swipetouch.Activities.LeaveStatusActivity;
+import com.swipetouch.ModelClass.LeaveStatusModel;
 import com.vedanshtechnologies.swipetouch.R;
 
 import java.util.ArrayList;

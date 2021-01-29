@@ -1,5 +1,5 @@
 
-package com.vedanshtechnologies.swipetouch.Activities;
+package com.swipetouch.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.view.menu.ShowableListMenu;
@@ -10,9 +10,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.vedanshtechnologies.swipetouch.Adapter.HolidayAdapter;
-import com.vedanshtechnologies.swipetouch.Adapter.SmsHistoryAdapter;
-import com.vedanshtechnologies.swipetouch.ModelClass.HolidayModelClass;
+import com.swipetouch.Adapter.HolidayAdapter;
+import com.swipetouch.Adapter.SmsHistoryAdapter;
+import com.swipetouch.ModelClass.HolidayModelClass;
 import com.vedanshtechnologies.swipetouch.R;
 
 import java.util.ArrayList;

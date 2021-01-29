@@ -1,4 +1,4 @@
-package com.vedanshtechnologies.swipetouch.Activities;
+package com.swipetouch.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentTransaction;
@@ -16,7 +16,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
-import com.vedanshtechnologies.swipetouch.Adapter.CustomAdapter;
+import com.swipetouch.Adapter.CustomAdapter;
 import com.vedanshtechnologies.swipetouch.R;
 
 import java.text.SimpleDateFormat;

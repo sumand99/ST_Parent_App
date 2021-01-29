@@ -1,4 +1,4 @@
-package com.vedanshtechnologies.swipetouch.UtilityTools.multipart;
+package com.swipetouch.UtilityTools.multipart;
 
 /**
  * Created by sohel on 4/15/2017.

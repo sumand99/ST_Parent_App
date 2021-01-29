@@ -1,4 +1,4 @@
-package com.vedanshtechnologies.swipetouch.Activities;
+package com.swipetouch.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,8 +11,8 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.vedanshtechnologies.swipetouch.Adapter.CalendarAdapter;
-import com.vedanshtechnologies.swipetouch.Adapter.new_Calender_Adapter;
+import com.swipetouch.Adapter.CalendarAdapter;
+import com.swipetouch.Adapter.new_Calender_Adapter;
 import com.vedanshtechnologies.swipetouch.R;
 
 import java.text.DateFormat;

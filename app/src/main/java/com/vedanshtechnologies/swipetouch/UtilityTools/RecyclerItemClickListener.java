@@ -1,4 +1,4 @@
-package com.vedanshtechnologies.swipetouch.UtilityTools;
+package com.swipetouch.UtilityTools;
 
 import android.content.Context;
 import android.view.GestureDetector;

@@ -1,4 +1,4 @@
-package com.vedanshtechnologies.swipetouch.Activities;
+package com.swipetouch.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -20,11 +20,11 @@ import com.android.volley.RetryPolicy;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.vedanshtechnologies.swipetouch.Adapter.LeaveStatusAdapter;
-import com.vedanshtechnologies.swipetouch.ModelClass.LeaveStatusModel;
+import com.swipetouch.Adapter.LeaveStatusAdapter;
+import com.swipetouch.ModelClass.LeaveStatusModel;
 import com.vedanshtechnologies.swipetouch.R;
-import com.vedanshtechnologies.swipetouch.UtilityTools.Const;
-import com.vedanshtechnologies.swipetouch.UtilityTools.NetworkUtil;
+import com.swipetouch.UtilityTools.Const;
+import com.swipetouch.UtilityTools.NetworkUtil;
 
 import org.json.JSONArray;
 import org.json.JSONException;
