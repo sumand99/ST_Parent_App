@@ -26,9 +26,9 @@
         <activity android:name="com.swipetouch.Activities.HolidayActivity" />
         <activity android:name="com.swipetouch.Activities.SettingActivity" />
         <activity android:name="com.swipetouch.Activities.LibraryActivity" />
-        <activity android:name="com.swipetouch.Activities.ActivitiesActivity" />
+        <activity android:name="com.swipetouch.Activities.Projects_Assignment" />
         <activity android:name="com.swipetouch.Activities.ProjectsActivity" />
-        <activity android:name="com.swipetouch.Activities.HomeWorkActivity" />
+        <activity android:name="com.swipetouch.Activities.Stu_AssignmentActivity" />
         <activity android:name="com.swipetouch.Activities.AcadmicfeedbackActivity" />
         <activity android:name="com.swipetouch.Activities.BirthdayActivity" />
         <activity android:name="com.swipetouch.Activities.NewsEventActivity" />

@@ -100,7 +100,7 @@ public class ENoticeActivity extends AppCompatActivity {
                            String title = noticesobj.getString("title");
                            String date_of_notice = noticesobj.getString("date_of_notice");
 
-                           SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy | HH:mm a");
+                           SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-DD  HH:mm:SS");
                            Date date = dateFormat.parse(date_of_notice);
                            SimpleDateFormat dateFormat2 = new SimpleDateFormat("dd-MM-yyyy");
                            String notice_date = dateFormat2.format(date);
